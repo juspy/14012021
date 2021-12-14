@@ -10,9 +10,9 @@ for(let i = 0; i < Infinity; i++){
     }
     if(b[0] == 'add'){
 	arr.push(name);
-        console.log('Äîáàâëåíî: ' + name)
+        console.log('Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¾: ' + name)
     }if(b[0] == 'del'){
-	console.log('Óäàëåíî: ' + name)
+	console.log('Ð£Ð´Ð°Ð»ÐµÐ½Ð¾: ' + name)
 	removeItem(name)
     }if(a == 'stop'){
         break
